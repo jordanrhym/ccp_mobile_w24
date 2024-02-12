@@ -89,13 +89,6 @@ p {
     margin: 5%;
 }
 
-.foot {
-    font-size: 2vw;
-    text-align: center;
-    text-decoration: none;
-}
-
-
 img {
     max-width: 100%;
     border: 2px solid black;
@@ -145,8 +138,13 @@ ul {
     border-radius: 10px;
 }
 
-.mini {
+#mini {
     text-decoration: none;
     font-weight: light;
 }
 
+#foot {
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
