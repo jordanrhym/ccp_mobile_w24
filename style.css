@@ -88,6 +88,14 @@ p {
     font-size: 3vw;
     margin: 5%;
 }
+
+.foot {
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 img {
     max-width: 100%;
     border: 2px solid black;
@@ -142,12 +150,3 @@ ul {
     font-weight: light;
 }
 
-footer h2 {
-    /* background: rgb(235, 190, 190); */
-    font-size: 2vw;
-    text-align: center;
-    text-decoration: none;
-    /* padding: 2%;
-    margin: 2%; */
-    /* border-radius: 10px; */
-}
