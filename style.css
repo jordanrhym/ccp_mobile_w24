@@ -15,45 +15,11 @@
 
 body{
     background-color: rgb(246, 230, 230);
-    font-family: "Droid Sans", "Helvetica Neue";
+    font-family: "Helvetica Neue", "sans-serif";
     text-align: left;
     margin: 5%;
     padding: 5%;
 }
-
-nav li{
-    /* background-color: lavender; */
-    list-style-type: none;
-    /* border-radius: 10px; */
-    padding: 3px;
-    margin: 0%;
-    padding: 0%;
-
-}
-
-nav li a {
-    display: block;
-    width: 100%;
-    /* border-radius: 30%; */
-}
-
-li {
-  line-height: 1.5;
-  color: midnightblue;
-  text-align: center;
-  /* border-radius: 5%; */
-}
-
-li a:hover {
-  background-color: midnightblue;
-  color: white;
-}
-
-.active {
-    background-color: midnightblue;
-    color: white;
-    font-weight: bolder;
-  }
 
 h1{
     color:midnightblue;
@@ -87,6 +53,49 @@ p {
     margin: 5%;
 }
 
+nav li{
+    /* background-color: lavender; */
+    list-style-type: none;
+    /* border-radius: 10px; */
+    padding: 3px;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+nav li a {
+    display: block;
+    width: 100%;
+    /* border:1px solid midnightblue; */
+    /* border-radius: 30%; */
+}
+
+ul {
+    padding: 5px;
+}
+
+li {
+  /* line-height: 1.5; */
+  color: black;
+  text-align: center;
+  font-family: "Helvetica Neue", "sans-serif";
+  font-size: 3vw;
+  /* border-radius: 5%; */
+}
+
+li a:hover {
+  background-color: midnightblue;
+  color: white;
+}
+
+.active {
+    background-color: midnightblue;
+    color: white;
+    font-weight: bolder;
+    line-height: 3.0;
+    width: 100%;
+  }
+
 img {
     max-width: 100%;
     border: 2px solid black;
@@ -106,7 +115,7 @@ ul {
     /* width: 90%; */
     grid-gap: 2%;
     justify-content: center;
-    /* align-items: stretch; */
+    align-items: stretch;
 }
 
 
